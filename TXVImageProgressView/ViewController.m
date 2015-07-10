@@ -47,8 +47,8 @@
     
     if (progress<100)
     {
-        [self performSelector:@selector(increaseProgess) withObject:nil afterDelay: 0.04];
-        progress = progress + (arc4random()%3);
+        [self performSelector:@selector(increaseProgess) withObject:nil afterDelay: 0.02];
+        progress++;
     }
     
 }
