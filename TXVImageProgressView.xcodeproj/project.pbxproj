@@ -14,6 +14,15 @@
 		FC90DDC31B4F4AFA00F5382B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC90DDC21B4F4AFA00F5382B /* Images.xcassets */; };
 		FC90DDC61B4F4AFA00F5382B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC90DDC41B4F4AFA00F5382B /* LaunchScreen.xib */; };
 		FC90DDD21B4F4AFB00F5382B /* TXVImageProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC90DDD11B4F4AFB00F5382B /* TXVImageProgressViewTests.m */; };
+		FC90DDDE1B4F4BA100F5382B /* VTXImageProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC90DDDD1B4F4BA100F5382B /* VTXImageProgressView.m */; };
+		FC90DDE11B4F4EAD00F5382B /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = FC90DDDF1B4F4EAD00F5382B /* heart.png */; };
+		FC90DDE21B4F4EAD00F5382B /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC90DDE01B4F4EAD00F5382B /* heart@2x.png */; };
+		FC90DDEA1B4F508C00F5382B /* Twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC90DDE41B4F508C00F5382B /* Twitter@2x.png */; };
+		FC90DDEB1B4F508C00F5382B /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = FC90DDE51B4F508C00F5382B /* Twitter.png */; };
+		FC90DDEC1B4F508C00F5382B /* Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC90DDE61B4F508C00F5382B /* Play@2x.png */; };
+		FC90DDED1B4F508C00F5382B /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = FC90DDE71B4F508C00F5382B /* Play.png */; };
+		FC90DDEE1B4F508C00F5382B /* Truck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC90DDE81B4F508C00F5382B /* Truck@2x.png */; };
+		FC90DDEF1B4F508C00F5382B /* Truck.png in Resources */ = {isa = PBXBuildFile; fileRef = FC90DDE91B4F508C00F5382B /* Truck.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,16 @@
 		FC90DDCB1B4F4AFB00F5382B /* TXVImageProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXVImageProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC90DDD01B4F4AFB00F5382B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC90DDD11B4F4AFB00F5382B /* TXVImageProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXVImageProgressViewTests.m; sourceTree = "<group>"; };
+		FC90DDDC1B4F4BA100F5382B /* VTXImageProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTXImageProgressView.h; sourceTree = "<group>"; };
+		FC90DDDD1B4F4BA100F5382B /* VTXImageProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTXImageProgressView.m; sourceTree = "<group>"; };
+		FC90DDDF1B4F4EAD00F5382B /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		FC90DDE01B4F4EAD00F5382B /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
+		FC90DDE41B4F508C00F5382B /* Twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter@2x.png"; sourceTree = "<group>"; };
+		FC90DDE51B4F508C00F5382B /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		FC90DDE61B4F508C00F5382B /* Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
+		FC90DDE71B4F508C00F5382B /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		FC90DDE81B4F508C00F5382B /* Truck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Truck@2x.png"; sourceTree = "<group>"; };
+		FC90DDE91B4F508C00F5382B /* Truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Truck.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,8 @@
 		FC90DDB41B4F4AFA00F5382B /* TXVImageProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				FC90DDE31B4F4EB200F5382B /* Icons */,
+				FC90DDDB1B4F4B4300F5382B /* TXVImageProgressView */,
 				FC90DDB91B4F4AFA00F5382B /* AppDelegate.h */,
 				FC90DDBA1B4F4AFA00F5382B /* AppDelegate.m */,
 				FC90DDBC1B4F4AFA00F5382B /* ViewController.h */,
@@ -117,6 +138,30 @@
 				FC90DDD01B4F4AFB00F5382B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC90DDDB1B4F4B4300F5382B /* TXVImageProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				FC90DDDC1B4F4BA100F5382B /* VTXImageProgressView.h */,
+				FC90DDDD1B4F4BA100F5382B /* VTXImageProgressView.m */,
+			);
+			path = TXVImageProgressView;
+			sourceTree = "<group>";
+		};
+		FC90DDE31B4F4EB200F5382B /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				FC90DDE41B4F508C00F5382B /* Twitter@2x.png */,
+				FC90DDE51B4F508C00F5382B /* Twitter.png */,
+				FC90DDE61B4F508C00F5382B /* Play@2x.png */,
+				FC90DDE71B4F508C00F5382B /* Play.png */,
+				FC90DDE81B4F508C00F5382B /* Truck@2x.png */,
+				FC90DDE91B4F508C00F5382B /* Truck.png */,
+				FC90DDDF1B4F4EAD00F5382B /* heart.png */,
+				FC90DDE01B4F4EAD00F5382B /* heart@2x.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +244,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC90DDEA1B4F508C00F5382B /* Twitter@2x.png in Resources */,
+				FC90DDEC1B4F508C00F5382B /* Play@2x.png in Resources */,
+				FC90DDE11B4F4EAD00F5382B /* heart.png in Resources */,
+				FC90DDED1B4F508C00F5382B /* Play.png in Resources */,
 				FC90DDC11B4F4AFA00F5382B /* Main.storyboard in Resources */,
+				FC90DDE21B4F4EAD00F5382B /* heart@2x.png in Resources */,
+				FC90DDEF1B4F508C00F5382B /* Truck.png in Resources */,
 				FC90DDC61B4F4AFA00F5382B /* LaunchScreen.xib in Resources */,
+				FC90DDEE1B4F508C00F5382B /* Truck@2x.png in Resources */,
+				FC90DDEB1B4F508C00F5382B /* Twitter.png in Resources */,
 				FC90DDC31B4F4AFA00F5382B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +274,7 @@
 			files = (
 				FC90DDBE1B4F4AFA00F5382B /* ViewController.m in Sources */,
 				FC90DDBB1B4F4AFA00F5382B /* AppDelegate.m in Sources */,
+				FC90DDDE1B4F4BA100F5382B /* VTXImageProgressView.m in Sources */,
 				FC90DDB81B4F4AFA00F5382B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
